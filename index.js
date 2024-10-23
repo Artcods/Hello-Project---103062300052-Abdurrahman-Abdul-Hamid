@@ -53,3 +53,5 @@ app.set('views', path.join(__dirname, '/views'))
 /* Membuat static folder */
 
 app.use(express.static(path.join(__dirname, '/public'))) // sesuaikan dengan foldernya
+
+app.use(express.static(path.join(__dirname, '/privet')))
